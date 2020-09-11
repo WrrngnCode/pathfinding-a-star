@@ -1,0 +1,14 @@
+const path = require('path');
+
+module.exports = {
+  entry: './src/index.js',
+  output: {
+    path: path.resolve(__dirname, 'dist'),
+    filename: 'js/bundle.js'
+  },
+  devServer: {
+    contentBase: './dist',//path.join(__dirname,'./dist')
+    port: 3001,
+  }
+ 
+}
