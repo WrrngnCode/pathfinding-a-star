@@ -1,1 +1,5 @@
+Set BuildPack:
 heroku buildpacks:set https://github.com/heroku/heroku-buildpack-static.git
+
+Remove BuildPack: 
+heroku buildpacks:remove heroku/nodejs
